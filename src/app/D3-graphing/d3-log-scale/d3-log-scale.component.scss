@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+  
+h1:not(:first-child) {
+    margin-top: 50px;
+}
+
+.chart-log-scale{
+    width: 200px;
+    height: 500px;
+    background-color: #f7f7f7;
+    margin: 25px auto;
+  }

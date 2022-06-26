@@ -1,0 +1,28 @@
+#chart{
+    width: 800px;
+    height: 800px;
+    background-color: #f7f7f7;
+    margin: 25px auto;
+    position: relative
+  }
+  
+  #scatterplot-tooltip {
+    text-align: center;
+    border: 1px solid #ccc;
+    position: absolute;
+    padding: 10px;
+    background-color: #fff;
+    display: none;
+  }
+  
+  #scatterplot-tooltip .metric-date {
+    text-decoration: underline;
+  }
+
+  .axis {
+      font-size: 18px;
+      //shape-rendering forces the browser to calculate shapes a certain way
+      //We are telling the browser don't optimize and make our lines clear
+      //on the axis.
+      shape-rendering: geometricPrecision;
+  }
